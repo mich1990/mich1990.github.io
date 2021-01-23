@@ -1,7 +1,7 @@
 {
-  "name": "wtf-webpack-starterkit",
+  "name": "portfolio",
   "version": "1.0.1",
-  "description": "WTF Webpack starterkit",
+  "description": "Michal Michalski portforlio",
   "main": "index.js",
   "private": true,
   "scripts": {
