@@ -8,6 +8,10 @@ fetch("https://api.github.com/users/mich1990/repos?sort=created&direction=asc")
     const container = document.querySelector(".projects-grid--js");
     for (let repo of res) {
       const { description, homepage, html_url, name } = repo;
+      if(homepage === null)
+      {
+        homepage = html_url;
+      }
 
       const template = `<article class="project">
             <div class="project__window">
